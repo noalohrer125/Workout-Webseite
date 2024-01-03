@@ -18,30 +18,6 @@ h1 {
     border-bottom: 2px solid lightgray;
 }
 
-.list {
-    background-color: white;
-}
-
-.lists {
-    background-color: white;
-    display: inline-block;
-}
-
-li {
-    background-color: black;
-    color: white;
-    border:2px solid #000;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 1px 1px 10px 1px;
-    list-style-type: none;
-    font-size: 20px;
-}
-
-li::before {
-    content: "\1F589  ";
-}
-
 .button_1 {
     background-color: black;
     color: white;
@@ -49,20 +25,26 @@ li::before {
 }
 
 .table {
-    text-align: center;
-    margin: auto;
-}
-
-.start {
-    color: white;
-    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button_2 {
+    width: 60px;
+    font-size: 20px;
     background-color: black;
     color: white;
-    margin: 1px 1px 9.9px 1px;
-    height: 30px;
+}
+
+.button_3 {
+    width: 200px;
     font-size: 20px;
-    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+th {
+    font-size: 30px;
 }
