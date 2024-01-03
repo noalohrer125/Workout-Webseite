@@ -35,6 +35,7 @@ li {
     padding-right: 100px;
     margin: 1px 1px 10px 1px;
     list-style-type: none;
+    font-size: 20px;
 }
 
 li::before {
@@ -45,4 +46,23 @@ li::before {
     background-color: black;
     color: white;
     padding: 10px 80px;
+}
+
+.table {
+    text-align: center;
+    margin: auto;
+}
+
+.start {
+    color: white;
+    text-align: center;
+}
+
+.button_2 {
+    background-color: black;
+    color: white;
+    margin: 1px 1px 9.9px 1px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
 }
