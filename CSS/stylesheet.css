@@ -33,3 +33,9 @@ li {
 li::before {
     content: "\1F589  ";
 }
+
+.button_1 {
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+}
