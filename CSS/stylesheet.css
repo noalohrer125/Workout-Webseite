@@ -24,6 +24,12 @@ h1 {
     padding: 10px 80px;
 }
 
+.button_1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 .table {
     background-color: white;
     font-size: 20px;
@@ -39,7 +45,9 @@ h1 {
 }
 
 .button_2:hover {
-    color: green;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .button_3{
@@ -49,10 +57,11 @@ h1 {
     color: white; 
 }
 
+.button_3:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 th {
     font-size: 30px;
-}
-
-#test {
-    color: green;
 }
