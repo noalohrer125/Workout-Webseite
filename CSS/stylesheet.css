@@ -38,13 +38,21 @@ h1 {
     color: white;
 }
 
-.button_3 {
+.button_2:hover {
+    color: green;
+}
+
+.button_3{
     width: 200px;
     font-size: 20px;
     background-color: black;
-    color: white;
+    color: white; 
 }
 
 th {
     font-size: 30px;
+}
+
+#test {
+    color: green;
 }
